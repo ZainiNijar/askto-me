@@ -2,7 +2,7 @@ import { Configuration, OpenAIApi } from "openai";
 
 export default function openapi(req, res) {
 
-    const OPENAI_API_KEY = "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"
+    const OPENAI_API_KEY = "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"
 
     const configuration = new Configuration({
         apiKey: OPENAI_API_KEY,
