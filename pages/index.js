@@ -14,7 +14,7 @@ export default function Home() {
   const handleClick = () => {
     setAnswers(null);
 
-    fetch(`http://askto-me.netlify.app/api/openapi?questions=${question}?.`)
+    fetch(`https://askto-me.netlify.app/api/openapi?questions=${question}?.`)
       .then((response) => response.json())
       .then((res) => {
         console.log(res);
